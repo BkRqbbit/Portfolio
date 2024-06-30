@@ -27,8 +27,9 @@ body{
 
 #wrapper{
     display: grid;
+    gap: 20px;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto;
 }
 
 .container{
@@ -69,4 +70,14 @@ header ul li{
 
 nav{
     text-align: right;
+}
+
+footer{
+    background-color: var(--black);
+    color: var(--light-blue);
+}
+
+footer p{
+    text-align: center;
+    padding: 20px;
 }
